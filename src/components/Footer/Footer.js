@@ -37,6 +37,17 @@ const Footer = () => {
 				<CompanyContainer>
 					<Slogan>Innovating one project at a time </Slogan>
 				</CompanyContainer>
+				<SocialContainer>
+					<SocialIcons href="https://github.com/sakib-h">
+						<AiFillGithub size="3rem" />
+					</SocialIcons>
+					<SocialIcons href="https://www.linkedin.com/in/abdullah-al-sakib/">
+						<AiFillLinkedin size="3rem" />
+					</SocialIcons>
+					<SocialIcons href="https://www.instagram.com/__sakibhasan/">
+						<AiFillInstagram size="3rem" />
+					</SocialIcons>
+				</SocialContainer>
 			</SocialIconsContainer>
 		</FooterWrapper>
 	);
